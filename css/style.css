@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 350px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    text-align: center;
+    padding: 100px 0;
+    background-image: url(/chef-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180px;
+}
+header .header_title{
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+.header .header_text{
+    margin-top: 10px;
+}
+.nav_list .nav_item{
+    display: inline-block;
+    margin: 0 10px;
+}
+.nav_list .nav_item .nav_link{
+    color: gray;
+    text-transform: uppercase;
+    padding: 20px;
+    transition: .5s;
+}
+.navbar .container{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+.nav_list .nav_item .nav_link:hover{
+    background-color: rgb(217, 212, 212);
+}
+.main{
+    margin-top: 40px;
+}
+.main .main_list .main_item{
+    display: inline-block;
+    width: 30%;
+    margin: 20px 1.5%;
+}
+.main .main_list .main_item .main_link{
+    color: white;
+    background-color: orange;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 5px 0;
+    padding: 6px;
+    font-weight: bold;
+}
+.main .main_list .main_item .main_title{
+    font-size: 25px;
+    text-transform: uppercase;
+    transition: .5s;
+    letter-spacing: 20px;
+}
+.main .main_list .main_item .main_title:hover{
+    color: red;
+    cursor: pointer;
+}
+.main .main_list .main_item .main_text{
+    font-size: 16px;
+    letter-spacing: 10px;
+}
+.wrapper {
+    text-align: center;
+    margin: 100px 0;
+}
+.wrapper .wrapper_link {
+    color: red;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: .5s;
+    border-radius: 8px;
+}
+.wrapper .wrapper_link:hover {
+    background-color: red;
+    color: #fff;
+
+}
